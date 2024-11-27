@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <title>Villa Agency - Real Estate HTML5 Template</title>
+    <title>Skibidi Telolet Villa</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -71,16 +71,16 @@ https://templatemo.com/tm-591-villa-agency
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <h1>Villa</h1>
+                    <a href="index.php" class="logo">
+                        <h1>Skibidi Telolet Villa</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li><a href="index.html" class="active">Home</a></li>
-                      <li><a href="properties.html">Properties</a></li>
-                      <li><a href="property-details.html">Property Details</a></li>
-                      <li><a href="contact.html">Contact Us</a></li>
+                      <li><a href="index.php" class="active">Home</a></li>
+                      <li><a href="properties.php">Properties</a></li>
+                      <li><a href="property-details.php">Property Details</a></li>
+                      <li><a href="contact.php">Contact Us</a></li>
                       <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
                   </ul>   
                     <a class='menu-trigger'>
@@ -123,7 +123,7 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4">
           <div class="left-image">
             <img src="assets/images/featured.jpg" alt="">
-            <a href="property-details.html"><img src="assets/images/featured-icon.png" alt="" style="max-width: 60px; padding: 0px;"></a>
+            <a href="property-details.php"><img src="assets/images/featured-icon.png" alt="" style="max-width: 60px; padding: 0px;"></a>
           </div>
         </div>
         <div class="col-lg-5">
@@ -299,7 +299,7 @@ https://templatemo.com/tm-591-villa-agency
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. 
                       <br><br>When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.</p>
                       <div class="icon-button">
-                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                        <a href="property-details.php"><i class="fa fa-calendar"></i> Schedule a visit</a>
                       </div>
                     </div>
                   </div>
@@ -324,7 +324,7 @@ https://templatemo.com/tm-591-villa-agency
                       <h4>Detail Info About Villa</h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
                       <div class="icon-button">
-                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                        <a href="property-details.php"><i class="fa fa-calendar"></i> Schedule a visit</a>
                       </div>
                     </div>
                   </div>
@@ -349,7 +349,7 @@ https://templatemo.com/tm-591-villa-agency
                       <h4>Extra Info About Penthouse</h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. <br><br>Swag fanny pack lyft blog twee. JOMO ethical copper mug, succulents typewriter shaman DIY kitsch twee taiyaki fixie hella venmo after messenger poutine next level humblebrag swag franzen.</p>
                       <div class="icon-button">
-                        <a href="property-details.html"><i class="fa fa-calendar"></i> Schedule a visit</a>
+                        <a href="property-details.php"><i class="fa fa-calendar"></i> Schedule a visit</a>
                       </div>
                     </div>
                   </div>
@@ -375,10 +375,10 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+            <a href="property-details.php"><img src="assets/images/property-01.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$2.264.000</h6>
-            <h4><a href="property-details.html">18 New Street Miami, OR 97219</a></h4>
+            <h4><a href="property-details.php">18 New Street Miami, OR 97219</a></h4>
             <ul>
               <li>Bedrooms: <span>8</span></li>
               <li>Bathrooms: <span>8</span></li>
@@ -387,16 +387,16 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>6 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="property-details.php">Schedule a visit</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
+            <a href="property-details.php"><img src="assets/images/property-02.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$1.180.000</h6>
-            <h4><a href="property-details.html">54 Mid Street Florida, OR 27001</a></h4>
+            <h4><a href="property-details.php">54 Mid Street Florida, OR 27001</a></h4>
             <ul>
               <li>Bedrooms: <span>6</span></li>
               <li>Bathrooms: <span>5</span></li>
@@ -405,16 +405,16 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>8 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="property-details.php">Schedule a visit</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
+            <a href="property-details.php"><img src="assets/images/property-03.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$1.460.000</h6>
-            <h4><a href="property-details.html">26 Old Street Miami, OR 38540</a></h4>
+            <h4><a href="property-details.php">26 Old Street Miami, OR 38540</a></h4>
             <ul>
               <li>Bedrooms: <span>5</span></li>
               <li>Bathrooms: <span>4</span></li>
@@ -423,16 +423,16 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>10 spots</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="property-details.php">Schedule a visit</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-04.jpg" alt=""></a>
+            <a href="property-details.php"><img src="assets/images/property-04.jpg" alt=""></a>
             <span class="category">Apartment</span>
             <h6>$584.500</h6>
-            <h4><a href="property-details.html">12 New Street Miami, OR 12650</a></h4>
+            <h4><a href="property-details.php">12 New Street Miami, OR 12650</a></h4>
             <ul>
               <li>Bedrooms: <span>4</span></li>
               <li>Bathrooms: <span>3</span></li>
@@ -441,16 +441,16 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>2 cars</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="property-details.php">Schedule a visit</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-05.jpg" alt=""></a>
+            <a href="property-details.php"><img src="assets/images/property-05.jpg" alt=""></a>
             <span class="category">Penthouse</span>
             <h6>$925.600</h6>
-            <h4><a href="property-details.html">34 Beach Street Miami, OR 42680</a></h4>
+            <h4><a href="property-details.php">34 Beach Street Miami, OR 42680</a></h4>
             <ul>
               <li>Bedrooms: <span>4</span></li>
               <li>Bathrooms: <span>4</span></li>
@@ -459,16 +459,16 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>2 cars</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="property-details.php">Schedule a visit</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-06.jpg" alt=""></a>
+            <a href="property-details.php"><img src="assets/images/property-06.jpg" alt=""></a>
             <span class="category">Modern Condo</span>
             <h6>$450.000</h6>
-            <h4><a href="property-details.html">22 New Street Portland, OR 16540</a></h4>
+            <h4><a href="property-details.php">22 New Street Portland, OR 16540</a></h4>
             <ul>
               <li>Bedrooms: <span>3</span></li>
               <li>Bathrooms: <span>2</span></li>
@@ -477,7 +477,7 @@ https://templatemo.com/tm-591-villa-agency
               <li>Parking: <span>3 cars</span></li>
             </ul>
             <div class="main-button">
-              <a href="property-details.html">Schedule a visit</a>
+              <a href="property-details.php">Schedule a visit</a>
             </div>
           </div>
         </div>
