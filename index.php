@@ -72,7 +72,7 @@ https://templatemo.com/tm-591-villa-agency
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="index.php" class="logo">
-                        <h1>Skibidi Telolet Villa</h1>
+                        <h1>Skibidi Telolet</h1>
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
@@ -521,30 +521,30 @@ https://templatemo.com/tm-591-villa-agency
           </div>
         </div>
         <div class="col-lg-5">
-          <form id="contact-form" action="" method="post">
+          <form id="contact-form" action="actions.php" method="POST">
             <div class="row">
               <div class="col-lg-12">
                 <fieldset>
                   <label for="name">Full Name</label>
-                  <input type="name" name="name" id="name" placeholder="Your Name..." autocomplete="on" required>
+                  <input type="name" name="fullname" id="name" placeholder="Your Name..." autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
                   <label for="email">Email Address</label>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
                   <label for="subject">Subject</label>
-                  <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on" >
+                  <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
                   <label for="message">Message</label>
-                  <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                  <textarea name="message" id="message" placeholder="Your Message" required></textarea>
                 </fieldset>
               </div>
               <div class="col-lg-12">
