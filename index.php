@@ -98,20 +98,20 @@ https://templatemo.com/tm-591-villa-agency
     <div class="owl-carousel owl-banner">
       <div class="item item-1">
         <div class="header-text">
-          <span class="category">Toronto, <em>Canada</em></span>
-          <h2>Hurry!<br>Get the Best Villa for you</h2>
+          <span class="category">Nusa Dua, <em>Bali</em></span>
+          <h2>Book Now!<br>Discover Paradise, Stay Here</h2>
         </div>
       </div>
       <div class="item item-2">
         <div class="header-text">
-          <span class="category">Melbourne, <em>Australia</em></span>
-          <h2>Be Quick!<br>Get the best villa in town</h2>
+          <span class="category">Ubud, <em>Bali</em></span>
+          <h2>Hurry Up!<br>Your Ubud Villa Awaits</h2>
         </div>
       </div>
       <div class="item item-3">
         <div class="header-text">
-          <span class="category">Miami, <em>South Florida</em></span>
-          <h2>Act Now!<br>Get the highest level penthouse</h2>
+          <span class="category">Seminyak, <em>Bali</em></span>
+          <h2>Rush In!<br>Stay in Seminyak Luxury</h2>
         </div>
       </div>
     </div>
@@ -135,12 +135,12 @@ https://templatemo.com/tm-591-villa-agency
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Best useful links ?
+                Best Useful Links for Your Bali Stay!
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Get <strong>the best villa</strong> website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the <a href="https://www.google.com/search?q=best+free+css+templates" target="_blank">best free CSS templates</a> in the world. Please tell your friends about it.</div>
+                Get <strong>the best villa</strong> Explore our curated links to top attractions, dining spots, and activities in Bali. Everything you need for an unforgettable trip is right here on our website. Start exploring today!</div>
               </div>
             </div>
             <div class="accordion-item">
@@ -151,7 +151,7 @@ https://templatemo.com/tm-591-villa-agency
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                   <strong> Simple and hassle-free!</strong> Browse, check availability, book your villa, and enjoy a seamless Bali experience.
                 </div>
               </div>
             </div>
@@ -163,7 +163,7 @@ https://templatemo.com/tm-591-villa-agency
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Dolor <strong>almesit amet</strong>, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur <code>adipiscing</code> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                   <strong>At Villa Agency,</strong> we provide unparalleled luxury, exceptional service, and exclusive villas in the best locations. Our team is dedicated to ensuring a seamless experience from booking to check-out, offering personalized recommendations and 24/7 support.
                 </div>
               </div>
             </div>
@@ -296,8 +296,8 @@ https://templatemo.com/tm-591-villa-agency
                     </div>
                     <div class="col-lg-3">
                       <h4>Extra Info About Property</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse. 
-                      <br><br>When you need free CSS templates, you can simply type TemplateMo in any search engine website. In addition, you can type TemplateMo Portfolio, TemplateMo One Page Layouts, etc.</p>
+                      <p>This most magical and private Nusa Dua resort has 29 immaculately designed modernist pavilions, each with a tranquil private garden and pool. 
+                      <br><br>Our resort is ideal for honeymooners and newlyweds and you will be waited on hand and foot by our superbly trained staff Family, including your personal 24hr butlers.</p>
                       <div class="icon-button">
                         <a href="property-details.php"><i class="fa fa-calendar"></i> Schedule a visit</a>
                       </div>
@@ -377,8 +377,8 @@ https://templatemo.com/tm-591-villa-agency
           <div class="item">
             <a href="property-details.php"><img src="assets/images/property-01.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
-            <h6>$2.264.000</h6>
-            <h4><a href="property-details.php">18 New Street Miami, OR 97219</a></h4>
+            <h6>Rp2.264.000</h6>
+            <h4><a href="property-details.php">Nusa Dua</a></h4>
             <ul>
               <li>Bedrooms: <span>8</span></li>
               <li>Bathrooms: <span>8</span></li>
@@ -395,8 +395,8 @@ https://templatemo.com/tm-591-villa-agency
           <div class="item">
             <a href="property-details.php"><img src="assets/images/property-02.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
-            <h6>$1.180.000</h6>
-            <h4><a href="property-details.php">54 Mid Street Florida, OR 27001</a></h4>
+            <h6>Rp1.180.000</h6>
+            <h4><a href="property-details.php">Ubud</a></h4>
             <ul>
               <li>Bedrooms: <span>6</span></li>
               <li>Bathrooms: <span>5</span></li>
@@ -413,8 +413,8 @@ https://templatemo.com/tm-591-villa-agency
           <div class="item">
             <a href="property-details.php"><img src="assets/images/property-03.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
-            <h6>$1.460.000</h6>
-            <h4><a href="property-details.php">26 Old Street Miami, OR 38540</a></h4>
+            <h6>Rp1.460.000</h6>
+            <h4><a href="property-details.php">Seminyak</a></h4>
             <ul>
               <li>Bedrooms: <span>5</span></li>
               <li>Bathrooms: <span>4</span></li>
@@ -431,8 +431,8 @@ https://templatemo.com/tm-591-villa-agency
           <div class="item">
             <a href="property-details.php"><img src="assets/images/property-04.jpg" alt=""></a>
             <span class="category">Apartment</span>
-            <h6>$584.500</h6>
-            <h4><a href="property-details.php">12 New Street Miami, OR 12650</a></h4>
+            <h6>Rp584.500</h6>
+            <h4><a href="property-details.php">Ubud</a></h4>
             <ul>
               <li>Bedrooms: <span>4</span></li>
               <li>Bathrooms: <span>3</span></li>
@@ -449,8 +449,8 @@ https://templatemo.com/tm-591-villa-agency
           <div class="item">
             <a href="property-details.php"><img src="assets/images/property-05.jpg" alt=""></a>
             <span class="category">Penthouse</span>
-            <h6>$925.600</h6>
-            <h4><a href="property-details.php">34 Beach Street Miami, OR 42680</a></h4>
+            <h6>Rp925.600</h6>
+            <h4><a href="property-details.php">Seminyak</a></h4>
             <ul>
               <li>Bedrooms: <span>4</span></li>
               <li>Bathrooms: <span>4</span></li>
@@ -467,8 +467,8 @@ https://templatemo.com/tm-591-villa-agency
           <div class="item">
             <a href="property-details.php"><img src="assets/images/property-06.jpg" alt=""></a>
             <span class="category">Modern Condo</span>
-            <h6>$450.000</h6>
-            <h4><a href="property-details.php">22 New Street Portland, OR 16540</a></h4>
+            <h6>Rp450.000</h6>
+            <h4><a href="property-details.php">Nusa Dua</a></h4>
             <ul>
               <li>Bedrooms: <span>3</span></li>
               <li>Bathrooms: <span>2</span></li>
