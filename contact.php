@@ -73,6 +73,7 @@ https://templatemo.com/tm-591-villa-agency
                     <!-- ***** Logo Start ***** -->
                     <a href="index.php" class="logo">
                         <h1>Skibidi Telolet Villa</h1>
+                        
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
@@ -113,18 +114,18 @@ https://templatemo.com/tm-591-villa-agency
             <h6>| Contact Us</h6>
             <h2>Get In Touch With Our Agents</h2>
           </div>
-          <p>When you really need to download free CSS templates, please remember our website TemplateMo. Also, tell your friends about our website. Thank you for visiting. There is a variety of Bootstrap HTML CSS templates on our website. If you need more information, please contact us.</p>
+          <p>At Villa, we are always ready to assist you. If you need further information or would like to get in touch with our agents, please feel free to contact us using the details below. We are happy to answer your questions and provide the best solutions.</p>
           <div class="row">
             <div class="col-lg-12">
               <div class="item phone">
                 <img src="assets/images/phone-icon.png" alt="" style="max-width: 52px;">
-                <h6>010-020-0340<br><span>Phone Number</span></h6>
+                <h6>0361-0893-78<br><span>Phone Number</span></h6>
               </div>
             </div>
             <div class="col-lg-12">
               <div class="item email">
                 <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
-                <h6>info@villa.co<br><span>Business Email</span></h6>
+                <h6>skibidi12@gmail.com<br><span>Business Email</span></h6>
               </div>
             </div>
           </div>
