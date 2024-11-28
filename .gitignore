@@ -1,0 +1,6 @@
+# .gitignore
+.env
+
+vendor/*
+!vendor/bootstrap
+!vendor/jquery
