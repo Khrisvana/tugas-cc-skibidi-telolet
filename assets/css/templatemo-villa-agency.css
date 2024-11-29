@@ -416,6 +416,7 @@ Header Style
   color: #1e1e1e;
   font-weight: 700;
   letter-spacing: 2px;
+  width: max-content;
 }
 
 .background-header .main-nav .logo h1 {
