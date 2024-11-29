@@ -48,8 +48,8 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-8 col-md-8">
           <ul class="info">
-            <li><i class="fa fa-envelope"></i> info@company.com</li>
-            <li><i class="fa fa-map"></i> Sunny Isles Beach, FL 33160</li>
+            <li><i class="fa fa-envelope"></i> skibidi12@gmail.com</li>
+            <li><i class="fa fa-map"></i> Jl. Raya Seminyak 49-53</li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-4">
