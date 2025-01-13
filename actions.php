@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 // Include the database connection file
 include('db_connection.php');
 
@@ -12,7 +10,7 @@ function insertMessage($fullname, $email, $subject, $message, $image) {
     $created_at = date('Y-m-d H:i:s');
 
     // Prepare the SQL insert query
-    $sql = "INSERT INTO messages (fullname, email, subject, message, created_at, image)
+    $sql = "INSERT INTO information (fullname, email, subject, message, created_at, image)
             VALUES (:fullname, :email, :subject, :message, :created_at, :image)";
 
     try {
@@ -77,7 +75,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $remoteDirectory = dirname($ftpPath);
 
     $files = ftp_nlist($ftp_connection, ".");
-    print_r($files);
 
     // Check if directory exists and change to it
     if (!ftp_chdir($ftp_connection, $remoteDirectory)) {
@@ -89,7 +86,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Upload the file to the FTP server
     if (!ftp_put($ftp_connection, $ftpPath, $tempPath, FTP_BINARY)) {
         echo "Failed to upload the image to the FTP server.";
-        print_r(error_get_last());
         ftp_close($ftp_connection);
         exit();
     }
