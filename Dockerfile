@@ -1,22 +1,14 @@
-# Use the official PHP 8.2 FPM Alpine image
 FROM php:8.2-fpm-alpine
 
-# Install necessary PHP extensions
-RUN apk add --no-cache \
-    curl \
-    git \
-    zip \
-    unzip \
-    && docker-php-ext-install pdo pdo_mysql
-
-# Set working directory
 WORKDIR /var/www/html
 
-# Copy application files
-COPY . /var/www/html
+RUN apk update
+RUN apk --no-cache add curl linux-headers libzip-dev zip
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN docker-php-ext-install pdo pdo_mysql ftp
 
-# Expose PHP-FPM port
+RUN echo "upload_tmp_dir = /tmp" >> /usr/local/etc/php/php.ini
+
 EXPOSE 9000
 
-# Start PHP-FPM
-CMD ["php-fpm"]
+ENTRYPOINT [ "./run.sh" ]

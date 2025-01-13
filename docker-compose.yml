@@ -1,12 +1,41 @@
-version: '3.8'
+version: '3.9'
 
 services:
-  php-fpm:
-    image: php:8.2-fpm-alpine
+  php:
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - .:/var/www/html
-    expose:
+    ports:
       - "9000:9000"
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: skibidi
+      MYSQL_USER: skibidi_telolet
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./config/migrations:/docker-entrypoint-initdb.d
+
+  ftp:
+    image: stilliard/pure-ftpd
+    container_name: ftp_server
+    environment:
+      PUBLICHOST: "0.0.0.0"
+      FTP_USER_NAME: user
+      FTP_USER_PASS: password
+      FTP_USER_HOME: /home/ftpuser
+    ports:
+      - "21:21"
+      - "30000-30009:30000-30009"
+    volumes:
+      - ftp_data:/home/ftpuser
 
   nginx:
     image: nginx:alpine
@@ -16,4 +45,9 @@ services:
     ports:
       - "8080:80"
     depends_on:
-      - php-fpm
+      - php
+      - ftp
+
+volumes:
+  db_data:
+  ftp_data:
