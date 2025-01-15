@@ -1,5 +1,10 @@
 <?php
 // Include the database connection file
+require __DIR__ . '/vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 include('db_connection.php');
 
 // Function to insert a message into the database
@@ -37,29 +42,24 @@ function insertMessage($fullname, $email, $subject, $message, $image) {
 }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Get form input values
     $fullname = $_POST['fullname'];
     $email = $_POST['email'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
-    // FTP connection details
-    $ftpHost = 'ftp_server';
-    $ftpUsername = 'user';
-    $ftpPassword = 'password';
+    $ftpHost = $_ENV['FTP_HOST'];
+    $ftpUsername = $_ENV['FTP_USERNAME'];
+    $ftpPassword = $_ENV['FTP_PASSWORD'];
 
-    // Check if file is uploaded and there's no error
     if (!isset($_FILES['image']) || $_FILES['image']['error'] != UPLOAD_ERR_OK) {
         echo "No image uploaded or there was an error.";
         exit();
     }
 
-    // File upload handling
     $tempPath = $_FILES['image']['tmp_name'];
     $fileName = basename($_FILES['image']['name']);
     $ftpPath = "/" . $fileName;
 
-    // Connect to the FTP server
     $ftp_connection = ftp_connect($ftpHost);
     $ftp_login = ftp_login($ftp_connection, $ftpUsername, $ftpPassword);
 
@@ -68,41 +68,30 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit();
     }
 
-    // if (ftp_pasv($ftp_connection, true) === false) {
-    //     throw new \Exception("could not enable passive mode");
-    // }
-
     $remoteDirectory = dirname($ftpPath);
 
     $files = ftp_nlist($ftp_connection, ".");
 
-    // Check if directory exists and change to it
     if (!ftp_chdir($ftp_connection, $remoteDirectory)) {
         echo "Error: Could not change to remote directory: $remoteDirectory";
         ftp_close($ftp_connection);
         exit();
     }
 
-    // Upload the file to the FTP server
     if (!ftp_put($ftp_connection, $ftpPath, $tempPath, FTP_BINARY)) {
         echo "Failed to upload the image to the FTP server.";
         ftp_close($ftp_connection);
         exit();
     }
 
-    // Insert the record into the database
     $result = insertMessage($fullname, $email, $subject, $message, $ftpPath);
 
-    // Close the FTP connection
     ftp_close($ftp_connection);
 
-    // Redirect or display result
     if (strpos($result, 'successfully') !== false) {
-        // Redirect back to the same page with a success message
         header('Location: index.php');
         exit();
     } else {
-        // Display error message
         echo $result;
     }
 }
